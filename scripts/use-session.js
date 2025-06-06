@@ -1,4 +1,3 @@
-// scrape.js (ou qualquer outro nome)
 import { chromium } from "playwright";
 
 (async () => {
