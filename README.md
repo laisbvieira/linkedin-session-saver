@@ -12,11 +12,12 @@ Projeto com Playwright para capturar e salvar a sessão autenticada do LinkedIn 
 ## 🚀 Como Executar
 
 ### 1. Instale as dependências
+
 ```bash
 npm install
 ```
 
-### 2. Instale os navegadores do Playwright 
+### 2. Instale os navegadores do Playwright
 
 ```bash
 npx playwright install
@@ -25,11 +26,15 @@ npx playwright install
 ### 3. Execute o script para salvar a sessão do LinkedIn
 
 ```bash
-node save-session.js
+node scripts/save-session.js
+```
+
+### 4. Execute o script para acessar com a sessão salva
+
+```bash
+node scripts/use-session.js
 ```
 
 ## 📌 Observações
 
- O projeto é apenas para fins de estudo/teste.
-
-
+O projeto é apenas para fins de estudo/teste.
