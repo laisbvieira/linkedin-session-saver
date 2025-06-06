@@ -7,8 +7,6 @@ import fs from "fs";
   const page = await context.newPage();
 
   await page.goto("https://www.linkedin.com/login");
-  console.log("Faça login manualmente (você tem 60 segundos)...");
-
   await page.waitForTimeout(60000); 
 
   const storage = await context.storageState();
